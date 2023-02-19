@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==================== container ==================  */
+.container {
+    background-color: rgb(202, 221, 202);
+    border: 15px solid white;
+    min-height: 100vh;
+
+
+}
+
+/* ==================== content ================== */
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* ==================== top_section ================== */
+.top_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+
+.top_section h1 {
+    margin-left: 85px;
+    font-size: 45px;
+    font-weight: bolder;
+    color: green;
+    text-transform: uppercase;
+}
+
+.top_section h4 {
+    text-align: center;
+    color: green;
+    font-size: 25px;
+}
+
+/* ==================== image_container ================== */
+.image_container,
+img {
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+/* ==================== about_section ================== */
+.about_section {
+    margin-top: 50px;
+}
+
+.about_section h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: green;
+}
+
+.about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+
+/* ==================== statement ================== */
+.statement {
+    margin: 50px;
+}
+
+.statement h3 {
+    margin-left: -48px;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: green;
+
+}
+
+.statement ul li {
+    margin-left: -48x;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+
+}
+
+/* ==================== footer ================== */
+footer {
+    margin: 50px 0;
+}
+
+footer p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: end;
+
+}
+@media(max-width:912px){
+    /* ==================== top_section ================== */
+.top_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+    .top_section h1 {
+        margin-left: 75px;
+        margin-right: 10px;
+        font-size: 40px;
+        font-weight: bolder;
+        color: green;
+        text-transform: uppercase;
+    }
+    /* ==================== image_container ================== */
+.image_container,
+img {
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+/* ==================== about_section ================== */
+.about_section {
+    margin-top: 50px;
+}
+
+.about_section h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: green;
+}
+
+.about_section p {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+/* ==================== statement ================== */
+.statement {
+    margin: 50px;
+    margin-left: 60px;
+    
+}
+
+.statement h3 {
+    
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: green;
+
+}
+
+.statement ul li {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+
+}
+/* ==================== footer ================== */
+footer {
+    margin: 50px 10px;
+}
+
+footer p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: end;
+
+}
+
+}
+@media(max-width:540px){
+    /* ==================== container ==================  */
+.container {
+    background-color: rgb(202, 221, 202);
+    border: 15px solid white;
+    width: fit-content;
+    min-height: 100vh;
+}
+
+    /* ==================== content ================== */
+.content {
+    width: 590px;
+    margin: 0 auto;
+}
+/* ==================== top_section ================== */
+.top_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+
+.top_section h1 {
+    margin-left: 60px;
+    margin-right: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: green;
+    text-transform: uppercase;
+}
+
+}
